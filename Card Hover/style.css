@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: rgb(241, 192, 200);
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.overlays{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(241, 192, 200 , 0.534);
+    height: 100%;
+    width: 93%;
+    opacity: 0;
+    transition: ease 0.7s;
+}
+
+.cdn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 17%;
+}
+
+.fonts{
+    display: flex;
+}
+
+.fonts a{
+    height: 55px;
+    width: 80px;
+    background-color: #f5f6fa;
+    border-radius: 220px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 70px;
+}
+
+.imghov:hover .overlays{
+    opacity: 1;
+}
+
+i{
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.4);
+}
+
+.fa-facebook{
+    color: #e84393;
+}
+
+.fa-twitter{
+    columns: #e84118;
+}
+
+.fa-instagram{
+    color: #1ca0e7;
+}
